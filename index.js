@@ -29,6 +29,7 @@ const message = (message) => {
 // set chase date
 const chaseDate = new schedule.RecurrenceRule();
 chaseDate.date = 20;
+chaseDate.hour = 06;
 
 // schedule cahse
 const chaseBill = schedule.scheduleJob(chaseDate, function () {
@@ -38,6 +39,7 @@ const chaseBill = schedule.scheduleJob(chaseDate, function () {
 // set citi date
 const citiDate = new schedule.RecurrenceRule();
 citiDate.date = 14;
+citiBill.date = 06;
 
 // schedule cahse
 const citiBill = schedule.scheduleJob(citiDate, function () {
