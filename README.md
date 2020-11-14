@@ -4,7 +4,7 @@ This is a script written in nodejs, node-scheduler, and twilio to remind my brot
 
 # How-To
 
-1. > \$ git clone git@github.com:wajeht/remindted.git
+1. > \$ git clone https://github.com/wajeht/remindted.git
 2. > \$ npm install
 3. > \$ npm start
 
@@ -13,4 +13,4 @@ This is a script written in nodejs, node-scheduler, and twilio to remind my brot
 If you wannt to run it on server 247, use pm2 to keep it running.
 
 1. > \$ npm install pm2 -g
-2. > |\$ pm2 start index.js
+2. > \$ pm2 start index.js
