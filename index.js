@@ -33,6 +33,7 @@ chaseDate.second = 20;
 // schedule cahse
 const chaseBill = schedule.scheduleJob(chaseDate, function () {
     message("Your chase bill is up tonight!");
+});
 
 // set citi date
 const citiDate = new schedule.RecurrenceRule();
