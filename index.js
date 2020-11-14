@@ -39,7 +39,7 @@ const chaseBill = schedule.scheduleJob(chaseDate, function () {
 // set citi date
 const citiDate = new schedule.RecurrenceRule();
 citiDate.date = 14;
-citiBill.date = 06;
+citiDate.hour = 06;
 
 // schedule cahse
 const citiBill = schedule.scheduleJob(citiDate, function () {
